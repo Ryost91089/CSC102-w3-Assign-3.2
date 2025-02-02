@@ -1,0 +1,149 @@
+/* Center and style the title */
+title 
+{
+    display: block;
+    text-align: center;
+}
+
+/* Style h1 */
+h1 
+{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 72px;
+    color: #333;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    
+}
+
+/* Apply a dark blue gradient background */
+body 
+{
+    background: linear-gradient(to bottom, #d7b301, #039e0b);
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+/* Center the form */
+form 
+{
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
+
+/* Style the label text */
+label 
+{
+    font-size: 48px;
+    font-weight: bold;
+    color: rgb(249, 12, 12);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Style the result text */
+#result 
+{
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Center the image */
+img 
+{
+    display: block;
+    margin: 0 auto;
+    height: 500px;
+    width: 500px;
+}
+
+/* Add a background color and custom font */
+body 
+{
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the form */
+form 
+{
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 5px solid #35acd4;
+    border-radius: 10px;
+    background-color: #1ba32d;
+    
+}
+
+/* Style the input fields */
+input[type="text"] 
+{
+    width: 90%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #cdc9c9;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+/* Style the submit button */
+input[type="submit"] 
+{
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style the submit button on hover */
+input[type="submit"]:hover 
+{
+    background-color: #45a049;
+}
+
+/* Style the form */
+form
+{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+/* Style h2 */
+h2
+{
+    display: block;
+    text-align: center;
+    font-size: 4em;
+    font-weight: bold;
+    color: rgb(9, 147, 135);
+    
+}
+  
+/* Style shadow to text */
+.bottom-shadow-text
+{
+    font-size: 72px;
+    color: #333;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
+
+
+

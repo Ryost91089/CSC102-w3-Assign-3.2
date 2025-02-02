@@ -1,0 +1,108 @@
+<!--Randy Yost RY91089@uat.edu-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Palindrome Checker
+
+         </title>
+
+        <h1>Palindrome Checker
+            <p class="bottom-shadow-text"></p>
+            
+            <img src="tacocat.jpg">
+        
+        </h1>
+            
+            <!-- Links to the external CSS file -->
+            <link rel="stylesheet" href="strings.css">
+
+            <body>
+                     <!-- Creates an audio element that plays when check button is clicked -->
+                    <audio id="backgroundAudio" autoplay>
+            
+                     <source src="caribbean-dream-126301.mp3" type="audio/mpeg">
+        
+                    </audio>
+    
+                 <!-- Creates a form for user input -->
+                <form id="stringForm" onsubmit="submitForm(); return false;">
+        
+                     <br>
+
+                     <!-- Input field for entering the string -->
+                    <label for="userString">Enter a string
+
+                     </label>
+        
+                     <br>
+
+                    <input type="text" id="userString" name="userString" required>
+        
+                     <!-- Submit button for the form -->
+                    <input type="submit" value="Check">
+
+    
+
+                     <!-- Div to display the validation and palindrome messages -->
+                    <div id="result">
+
+                     </div>
+
+                
+
+                     <!-- Link to the external JavaScript file -->
+                    <script src="strings.js">
+
+                     </script>
+
+                </form>
+        
+        <h2> 
+                 <p class="bottom-shadow-text">Input Validation</p>
+
+                <img src="inputvalidation.jpg"> 
+                    <br>
+
+                <form id="userForm" onsubmit="validateForm(); return false;">
+                     <!-- Input for first name -->
+                    <label for="firstName">First Name:
+
+                     </label>
+    
+                    <input type="text" id="firstName" name="firstName" required>
+
+                      <!-- Input for last name -->
+                    <label for="lastName">Last Name:
+
+                     </label>
+
+                    <input type="text" id="lastName" name="lastName" required>
+
+                     <!-- Input for zip code -->
+                    <label for="zipCode">Zip Code:
+    
+                     </label>
+    
+                    <input type="text" id="zipCode" name="zipCode" required>
+
+                     <!-- Submit button -->
+                    <input type="submit" value="Submit">
+    
+                     <!-- Div to display messages -->
+                    <div id="message">
+
+                     </div>
+    
+                </form>
+
+        
+
+            </body>
+        </h2>
+    </head>
+
+</html>
+
+
